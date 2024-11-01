@@ -1,0 +1,32 @@
+.hero__wrap {
+  display: flex;
+  gap: 20px;
+}
+.hero__card {
+  border: 2 px solid black;
+  height: 400px;
+  background-color: lightgrey;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  writing-mode: vertical-rl;
+
+  flex-grow: 1;
+  transition: 0.5s;
+
+
+  &:hover{
+   flex-grow: 3;
+  }
+
+  h2{
+   margin-top: auto;
+writing-mode: horizontal-tb;
+letter-spacing: 30px;
+width: 30px;
+margin-right: auto;
+overflow: hidden;
+white-space: nowrap;
+transition: 0.5s;    
+  }
+}
